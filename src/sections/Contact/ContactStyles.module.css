@@ -25,8 +25,8 @@ textarea {
 
 input,
 textarea {
-  border: 1px solid #888;
   border-radius: 20px;
+  border: 1px solid #888;
   box-sizing: border-box;
   justify-self: center;
   background-color: var(--background-color);
@@ -67,7 +67,7 @@ input[type="submit"]:active {
     font-size: 20px;
   }
   form {
-    font-size: 40px;
+    gap: 40px;
   }
 }
 
