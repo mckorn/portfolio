@@ -4,13 +4,14 @@
 
 Built using a React + Vite Framework
 
-## Resources  
+## Resources
+
 - This project was developed with guidance from [How to Become a Developer](https://youtu.be/ZpIel9cv4Jk?si=IvfnQ-b7yXVozU9l).
 
-##  Acknowledgments
+## Acknowledgments
+
 - Logo design by CV
 - Sync Sheet Logo
 - Driver Owl Logo
 - Coffee Maker Logo
 - My To-Do Logo
-
