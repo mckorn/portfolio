@@ -1,8 +1,17 @@
-# React + Vite
+## McKenna Corn's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/91ede682-c8e0-4f2c-9e94-bf0ac3eb3514/deploy-status)](https://app.netlify.com/sites/mckenna-corn-2/deploys)
 
-Currently, two official plugins are available:
+Built using a React + Vite Framework
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Resources
+
+- This project was developed with guidance from [How to Become a Developer](https://youtu.be/ZpIel9cv4Jk?si=IvfnQ-b7yXVozU9l).
+
+## Acknowledgments
+
+- Logo design by CV
+- Sync Sheet Logo
+- Driver Owl Logo
+- Coffee Maker Logo
+- My To-Do Logo

@@ -1,43 +1,43 @@
-import React from 'react'
-import styles from './ProjectsStyles.module.css'
-import viberr from '../../assets/viberr.png'
-import freshBurger from '../../assets/fresh-burger.png'
-import hipsster from '../../assets/hipsster.png'
-import fitLift from '../../assets/fitlift.png'
-import ProjectCard from '../../common/ProjectCard'
+import React from "react";
+import styles from "./ProjectsStyles.module.css";
+import syncSheet from "../../assets/sync-sheet-logo.png";
+import driverOwl from "../../assets/driver-owl.png";
+import coffeeMaker from "../../assets/coffee-maker-logo.png";
+import myToDo from "../../assets/todo-list-logo.png";
+import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
   return (
-      <section id="projects" className={styles.container}>
-          <h1 className="sectionTitle">Projects</h1>
-          <div className={styles.projectsContainer}>
-              <ProjectCard
-                  src={viberr} // this is our only object which is a reference to a png
-                  link="https://github.com/mckorn/notion-sheets-sync"
-                  h3="Viberr"
-                  p="Streaming App"
-              />
-               <ProjectCard
-                  src={freshBurger}
-                  link="https://github.com/mckorn/notion-sheets-sync"
-                  h3="Fresh Burger"
-                  p="Hamburger Restaurant"
-              />
-              <ProjectCard
-                  src={hipsster}
-                  link="https://github.com/mckorn/notion-sheets-sync"
-                  h3="Hipsster"
-                  p="Glasses Shop"
-              />
-                <ProjectCard
-                  src={fitLift}
-                  link="https://github.com/mckorn/notion-sheets-sync"
-                  h3="FitLift"
-                  p="Fitness App"
-              />
-          </div>
-      </section>
-  )
+    <section id="projects" className={styles.container}>
+      <h1 className="sectionTitle">Projects</h1>
+      <div className={styles.projectsContainer}>
+        <ProjectCard
+          src={syncSheet} // this is our only object which is a reference to a png
+          link="https://github.com/mckorn/notion-sheets-sync"
+          h3="Sync Sheet"
+          p="Notion to Sheets Syncing Tool"
+        />
+        <ProjectCard
+          src={driverOwl}
+          link="https://play.google.com/store/apps/details?id=com.voteowl.driver&hl=en_US&pli=1"
+          h3="Driver Owl"
+          p="Driving App for Vote Owl"
+        />
+        <ProjectCard
+          src={coffeeMaker}
+          link="https://github.com/mckorn/webpages"
+          h3="Coffee Maker"
+          p="Ordering and Managing Coffee Shop"
+        />
+        <ProjectCard
+          src={myToDo}
+          link="https://github.com/mckorn/my-todo"
+          h3="My To-Do"
+          p="Virtual To-Do List"
+        />
+      </div>
+    </section>
+  );
 }
 
-export default Projects
+export default Projects;
