@@ -1,5 +1,5 @@
 import styles from "./HeroStyles.module.css";
-import heroImg from "../../assets/design-face.png";
+import heroImg from "../../assets/avatar-profile.png";
 import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";

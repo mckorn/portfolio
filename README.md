@@ -10,8 +10,4 @@ Built using a React + Vite Framework
 
 ## Acknowledgments
 
-- Logo design by CV
-- Sync Sheet Logo
-- Driver Owl Logo
-- Coffee Maker Logo
-- My To-Do Logo
+- [Driver Owl Logo](https://play.google.com/store/apps/details?id=com.voteowl.driver&hl=en_US&pli=1)
