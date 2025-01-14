@@ -4,6 +4,8 @@ import syncSheet from "../../assets/sync-sheet-logo.png";
 import driverOwl from "../../assets/driver-owl.png";
 import coffeeMaker from "../../assets/coffee-maker-logo.png";
 import myToDo from "../../assets/todo-list-logo.png";
+import adieuAds from "../../assets/ad-block-logo.png";
+import weatherClothes from "../../assets/weather-clothes-logo.jpg";
 import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
@@ -24,6 +26,12 @@ function Projects() {
           p="Driving App for Vote Owl"
         />
         <ProjectCard
+          src={adieuAds}
+          link="https://github.com/mckorn/adieuads"
+          h3="AdieuAds"
+          p="Peronalized Ad Blocker"
+        />
+        <ProjectCard
           src={coffeeMaker}
           link="https://github.com/mckorn/webpages"
           h3="Coffee Maker"
@@ -34,6 +42,18 @@ function Projects() {
           link="https://github.com/mckorn/my-todo"
           h3="My To-Do"
           p="Virtual To-Do List"
+        />
+        {/* <ProjectCard
+          src={myToDo}
+          link="https://github.com/mckorn/quotegen"
+          h3="QuoteGen"
+          p="Daily Quote Generator"
+        /> */}
+        <ProjectCard
+          src={weatherClothes}
+          link="https://github.com/mckorn/atmosfit"
+          h3="Atmosfit"
+          p="Weather App for your Wardrobe"
         />
       </div>
     </section>
